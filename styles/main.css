@@ -1,3 +1,11 @@
+/* 
+    color scheme:
+    #4b88c6
+    #adcdef
+    #5b935d
+    #b0e9b0
+*/
+
 body {
     font-size: 1em;
     font-weight: normal;
@@ -8,14 +16,17 @@ body {
 h1 {
     font-size: 1.8em;
     font-weight: bold;
-    color: darkblue;
+    /*color: darkblue;*/
+    color: #4b88c6;
     text-align: center;
 }
 h2, h3 {
-    color:rgb(91, 78, 178)
+    /*color:rgb(91, 78, 178)*/
+    color: #5b935d
 }
 p, ul {
-    color:rgb(52, 45, 104)
+    /*color:rgb(52, 45, 104)*/
+    color: #4b88c6;
 }
 div {
     background-color:rgb(206, 189, 240);
