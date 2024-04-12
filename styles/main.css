@@ -29,7 +29,8 @@ p, ul {
     color: #4b88c6;
 }
 div {
-    background-color:rgb(206, 189, 240);
+    /*background-color:rgb(206, 189, 240);*/
+    background-color:rgb(198, 219, 239);
     padding: 10px;
     margin: 1em;
 }
