@@ -48,3 +48,13 @@ div {
 h1, h2, h3 {
     font-family:Impact, 'Arial Black', sans-serif;
 }
+
+table {
+  background-color: black;
+  margin:1em;
+}
+
+th, td {
+  background-color:white;
+  padding: 1em;
+}
