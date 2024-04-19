@@ -76,3 +76,21 @@ p.temp {
 main {
     background-color:#4b88c6;
 }
+
+a#skipnav {
+    color: #5b935d;
+    background-color: white;
+}
+a#skipnav:hover, a#skipnav:focus {
+    color: white;
+    background-color: #5b935d;
+}
+
+a {
+    color: #5b935d;
+    background-color: rgb(233, 243, 251);
+}
+a:hover, a:focus {
+    color: rgb(233, 243, 251);
+    background-color: #5b935d;
+}
