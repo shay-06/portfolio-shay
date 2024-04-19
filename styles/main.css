@@ -94,3 +94,8 @@ a:hover, a:focus {
     color: rgb(233, 243, 251);
     background-color: #5b935d;
 }
+
+p#overview:first-letter {
+    font-size: 1.2em;
+    font-family: 'American Typewriter', serif;
+}
