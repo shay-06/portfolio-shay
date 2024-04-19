@@ -14,9 +14,10 @@ body {
     color: #000000;
     text-align: left;
     font-family:Calibri,'Gill Sans',sans-serif;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 0 auto;
     background-color: rgb(233, 243, 251);
+    min-width: 720px;
+    width:80%;
 }
 h1 {
     font-size: 1.8em;
