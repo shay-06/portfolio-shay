@@ -59,6 +59,9 @@ th, td {
 
 #skipnav {
     width: fit-content;
+    position: absolute;
+    top: 5px;
+    left: 5px;
 }
 
 .info {
