@@ -17,7 +17,7 @@ body {
     margin: 0 auto;
     background-color: rgb(233, 243, 251);
     min-width: 720px;
-    width:80%;
+    width:66%;
 }
 h1 {
     font-size: 1.8em;
@@ -57,17 +57,19 @@ th, td {
   padding: 1em;
 }
 
-#skipnav {
+div#skipnav {
     width: fit-content;
     position: absolute;
     top: 5px;
     left: 5px;
 }
 
-.info {
-    width: 40%;
-    margin: 10px;
-}
+div.info {
+  width: 40%;
+  font-size: 1.2em;
+  float: left;
+  margin:1em;
+  }
 
 #overview p {
     font-weight: bold;
@@ -102,4 +104,8 @@ a:hover, a:focus {
 p#overview:first-letter {
     font-size: 2em;
     font-family: 'American Typewriter', serif;
+}
+
+nav {
+clear: left;
 }
