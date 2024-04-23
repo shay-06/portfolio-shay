@@ -61,7 +61,7 @@ div#skipnav {
     width: fit-content;
     position: absolute;
     top: 5px;
-    left: 5px;
+    right: 5px;
 }
 
 div.info {
