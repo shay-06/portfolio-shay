@@ -81,6 +81,7 @@ p.temp {
 
 main {
     background-color:#4b88c6;
+    clear: left;
 }
 
 a#skipnav {
@@ -94,7 +95,7 @@ a#skipnav:hover, a#skipnav:focus {
 
 a {
     color: #5b935d;
-    background-color: rgb(233, 243, 251);
+    /*background-color: rgb(233, 243, 251);*/
 }
 a:hover, a:focus {
     color: rgb(233, 243, 251);
@@ -106,6 +107,35 @@ p#overview:first-letter {
     font-family: 'American Typewriter', serif;
 }
 
+/* navigation menu styles */
+
 nav {
-clear: left;
+  clear: left;
 }
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  float: left;
+  margin-right: 0.5em;
+}
+
+nav ul li a {
+  padding: 0.25em 1em;
+  text-decoration: none; /* no underline */
+  background-color: #4b88c6; /* pale bluish white */
+  color: white; /* dark blue */
+  border: 2px solid #4b88c6;
+  border-top-left-radius: 1em 1em; /* rounded corner! */
+  border-top-right-radius: 1em 1em; /* another rounded corner! */
+}
+
+nav ul li a:hover, nav ul li a:focus {
+  color: white;
+  background-color: #5b935d;
+  border-color: #5b935d;
+  font-weight: bold;
+}
+
